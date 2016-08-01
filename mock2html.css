@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'proxima_nova_semibold';
+  src: url("fonts/proximanova-semibold-webfont.eot");
+  src: url("fonts/proximanova-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-semibold-webfont.woff") format("woff"), url("fonts/proximanova-semibold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_light';
+  src: url("fonts/proximanova-light-webfont.eot");
+  src: url("fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-light-webfont.woff") format("woff"), url("fonts/proximanova-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  font-family: "proxima_nova_light"; }
