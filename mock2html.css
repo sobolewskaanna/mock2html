@@ -1,3 +1,6 @@
+/*
+Fonts
+*/
 @font-face {
   font-family: 'proxima_nova_semibold';
   src: url("fonts/proximanova-semibold-webfont.eot");
@@ -10,6 +13,12 @@
   src: url("fonts/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/proximanova-light-webfont.woff") format("woff"), url("fonts/proximanova-light-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+/*
+Mixins
+*/
+/*
+Layout
+*/
 body {
   font-family: "proxima_nova_light"; }
   @media (max-width: 719px) {
