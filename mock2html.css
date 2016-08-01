@@ -12,6 +12,9 @@
   font-style: normal; }
 body {
   font-family: "proxima_nova_light"; }
+  @media (max-width: 719px) {
+    body {
+      text-align: center; } }
 
 h1 {
   font-size: 20px;
@@ -38,18 +41,29 @@ p {
 
 .content {
   width: 85%; }
+  @media (max-width: 719px) {
+    .content {
+      width: 100%;
+      margin: 0 auto; } }
 
 .service-option {
   width: 50%;
   float: left; }
   .service-option strike {
     color: #e7e8e9; }
+  @media (max-width: 719px) {
+    .service-option {
+      width: 100%;
+      float: none; } }
 
 .monthly {
   background-color: #e7e8e9;
   padding: 30px;
   padding-left: 25px;
   color: #727375; }
+  @media (max-width: 719px) {
+    .monthly {
+      padding-left: 30px; } }
   .monthly .pricing {
     margin-bottom: 55px; }
 
@@ -61,10 +75,16 @@ p {
   color: #323335;
   padding: 30px;
   padding-left: 40px; }
+  @media (max-width: 719px) {
+    .prepaid {
+      padding-left: 30px; } }
   .prepaid h2 {
     font-size: 36px;
     font-family: "proxima_nova_semibold";
     width: 80%; }
+    @media (max-width: 719px) {
+      .prepaid h2 {
+        width: 100%; } }
   .prepaid p {
     margin-bottom: 45px;
     line-height: 1.5em; }
